@@ -1,0 +1,37 @@
+.navStyle:hover{
+  
+    border-bottom: 6px solid red      
+}
+.navStyle::active{
+    border-bottom: 1px solid red      
+
+}
+
+
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+/* .scroll {
+    scrollbar-width: none;
+  } */
+  @media only screen and (max-width: 800px) {
+   .navShrink{
+    display: none;
+   }
+   /* .mbar{
+    width: 19rem;
+   
+   }
+   .vbar{
+    width: 2rem;
+  
+   }
+   #sidebar{
+    padding: 0;
+   } */
+  }
+
+  
+
